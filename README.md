@@ -101,6 +101,151 @@ Sources should not be fabricated. Source claims should be linked to the files th
 - Update `AGENT_BUILD_PROGRESS.md` and `SOURCE_REGISTER.md` after completing files.
 - Treat `Reviewed` as an AI self-reviewed draft unless the project later reserves that status for human review.
 
+## Using The Rules And Skills
+
+The `.md` files in this repository are written so they can be used as prompt context for Codex, ChatGPT or another AI assistant. They do not require a special runtime by themselves; the main requirement is that the assistant can read the relevant files or that you paste the relevant content into the conversation.
+
+### In Codex With A Project Folder
+
+When this repository is open as a Codex workspace, ask Codex to use the relevant rules and skills before completing the task.
+
+Example:
+
+```text
+Use the rules and skills in this project to create a Year 8 Science assessment task on fair testing.
+Apply the assessment, curriculum, science, privacy and output-review rules.
+```
+
+Codex can then inspect files such as:
+
+- `skills/Core workflow/SKILL_REQUEST_INTAKE.md`
+- `skills/Core workflow/SKILL_TASK_PLANNING.md`
+- `skills/Assessment/SKILL_ASSESSMENT_TASK_DESIGN.md`
+- `rules/Assessment/RULE_ASSESSMENT_STRUCTURE.md`
+- `rules/Curriculum/RULE_YEAR_LEVEL_APPROPRIATENESS.md`
+- `rules/Science/RULE_VARIABLES_AND_FAIR_TESTING.md`
+
+For larger tasks, ask Codex to first identify which rules and skills apply, then draft the output.
+
+Example:
+
+```text
+Before drafting, identify the relevant rule and skill files in this repository.
+Then use them to design the task, rubric and teacher notes.
+```
+
+### In Codex Without A Project Folder
+
+If the files are not available in the workspace, copy the relevant rule and skill Markdown into the prompt before the task.
+
+Use this order:
+
+1. Paste the most relevant skill file.
+2. Paste any required rule files.
+3. Add your teaching task or request.
+4. Ask the assistant to follow the pasted instructions.
+
+Example:
+
+```text
+Use the following local rules and skill as operating instructions for this task.
+
+[paste SKILL_ASSESSMENT_TASK_DESIGN.md]
+[paste RULE_ASSESSMENT_STRUCTURE.md]
+[paste RULE_YEAR_LEVEL_APPROPRIATENESS.md]
+
+Now create a Year 8 assessment task on ...
+```
+
+Keep the pasted set small. For most tasks, one skill and three to six rules is enough.
+
+### In ChatGPT Online With Project Files
+
+If using ChatGPT Projects or another online workspace that supports project files, upload the repository or the relevant `rules/`, `skills/`, `AGENT_BUILD_PROGRESS.md` and `SOURCE_REGISTER.md` files.
+
+Then give an instruction such as:
+
+```text
+Use the uploaded rule and skill Markdown files as project instructions.
+For each education task, choose the relevant skill workflow and apply the related rules.
+If current curriculum, SACE, safety, policy or software details are needed, research reputable sources and cite them.
+Use Australian spelling.
+```
+
+For best results, name the files you want used when the task is specific.
+
+Example:
+
+```text
+Use SKILL_FEEDBACK_COMMENTS.md, RULE_FEEDBACK_FORMAT.md,
+RULE_MARKING_EVIDENCE.md and RULE_NO_UNFAIR_PENALTY.md.
+Write concise feedback for the following Year 8 Science responses.
+```
+
+### In ChatGPT Online Without Project Files
+
+If you are using a normal chat without uploaded files, paste a compact selection of rules and skills into the conversation. Start with the skill that matches the task, then add only the rules that matter.
+
+Useful starter combinations:
+
+- Assessment task: `SKILL_ASSESSMENT_TASK_DESIGN.md`, `RULE_ASSESSMENT_STRUCTURE.md`, `RULE_CURRICULUM_ALIGNMENT.md`, `RULE_YEAR_LEVEL_APPROPRIATENESS.md`
+- Rubric: `SKILL_RUBRIC_DESIGN.md`, `RULE_RUBRIC_A_TO_E.md`, `RULE_SINGLE_POINT_RUBRIC.md`, `RULE_MARKING_EVIDENCE.md`
+- Feedback: `SKILL_FEEDBACK_COMMENTS.md`, `RULE_FEEDBACK_FORMAT.md`, `RULE_MARKING_EVIDENCE.md`, `RULE_NO_UNFAIR_PENALTY.md`
+- Research-informed drafting: `SKILL_SOURCE_RESEARCH.md`, `SKILL_SOURCE_EVALUATION.md`, `SKILL_SYNTHESIS.md`, `RULE_SOURCE_HIERARCHY.md`
+- Science practical: `RULE_PRACTICAL_SAFETY.md`, `RULE_VARIABLES_AND_FAIR_TESTING.md`, `RULE_DATA_AND_UNCERTAINTY.md`, `RULE_PRIVACY_AND_SAFETY.md`
+
+Example:
+
+```text
+I am going to paste one skill and several rules. Treat them as instructions.
+After reading them, create the requested output and briefly list which pasted files you used.
+```
+
+### Choosing Files For A Task
+
+Use the skill file for the output type and rule files for the constraints.
+
+Examples:
+
+- To create something: choose a skill.
+- To check quality: choose quality-control rules.
+- To align to curriculum: choose curriculum rules.
+- To design or mark assessment: choose assessment skills and rules.
+- To write for students, parents or staff: choose communication and language rules.
+- To handle current facts, sources or policy: choose research rules.
+
+If unsure, start with:
+
+- `skills/Core workflow/SKILL_REQUEST_INTAKE.md`
+- `skills/Core workflow/SKILL_TASK_PLANNING.md`
+- `skills/Core workflow/SKILL_SOURCE_RESEARCH.md`
+- `rules/Core behaviour/RULE_FOLLOW_USER_CONTEXT.md`
+- `rules/Core behaviour/RULE_FINAL_CLEAN_OUTPUT.md`
+
+### Suggested Prompt Pattern
+
+```text
+Use the relevant Markdown rules and skills from this repository.
+
+Task:
+[describe the teaching task]
+
+Context:
+- Year level:
+- Subject:
+- Audience:
+- Platform or format:
+- Assessment conditions:
+- Sources or curriculum text supplied:
+
+Process:
+1. Identify which rule and skill files apply.
+2. Research reputable sources if required.
+3. Draft the output.
+4. Check it against the rules.
+5. Provide the final clean output plus a short source note if sources were used.
+```
+
 ## Recommended Next Work
 
 The current recommended next batch is:
