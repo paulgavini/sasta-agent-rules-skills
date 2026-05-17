@@ -26,7 +26,8 @@ The agent must create accessible, inclusive and readable content by default, and
 - Provide alt text or text descriptions when images or diagrams are essential.
 - Keep tables simple, with clear headers and no unnecessary merged-cell complexity.
 - Avoid dense blocks of text in student-facing materials.
-- Preserve editable text for equations, code, formulas and instructions.
+- Preserve editable text for equations, code, formulae and instructions.
+- For actual DOCX output, use Word-native OMML for formulae and equations so they remain editable Word equations.
 - Consider low-bandwidth, small-screen, printed and LMS-copy contexts where relevant.
 
 ## Decision Logic
@@ -46,7 +47,7 @@ If an accessibility choice could slightly lengthen the output but make it more u
 - Writing long unbroken paragraphs for junior students.
 - Creating complex tables that will not paste cleanly into Word or an LMS.
 - Using vague link text such as `click here`.
-- Providing an image of an equation instead of editable equation text.
+- Providing an image of an equation instead of editable equation text or OMML in a DOCX.
 
 ## Interaction With Skills
 
@@ -63,7 +64,8 @@ If an accessibility choice could slightly lengthen the output but make it more u
 - Are tables, links, images and colour use accessible?
 - Can the content be copied into Word or an LMS without major loss?
 - Are essential visual or media elements described in text?
-- Are equations, code and formulas editable?
+- Are equations, code and formulae editable?
+- If producing DOCX, are formulae and equations OMML rather than images or raw source text?
 
 ## Sources
 

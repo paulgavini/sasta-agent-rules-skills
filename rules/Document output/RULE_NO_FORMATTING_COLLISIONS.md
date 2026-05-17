@@ -27,6 +27,7 @@ The agent must avoid combining formatting features in ways that create confusing
 - Do not put long paragraphs inside narrow table cells.
 - Avoid nesting lists so deeply that copy-paste becomes unclear.
 - Keep code blocks and equations away from auto-formatting that changes symbols.
+- For actual DOCX output, convert formulae and equations to OMML rather than relying on pasted source text that Word might auto-format incorrectly.
 - Check that teacher notes, student instructions and source notes do not blend together.
 - Prefer simple structures that survive export to Word, PDF or LMS.
 
@@ -64,6 +65,7 @@ If the formatting makes content harder to scan, copy, edit or convert, simplify 
 - Can the document be copied and edited cleanly?
 - Are colour-only meanings avoided?
 - Are tables, code and equations distinct?
+- If producing DOCX, are formulae and equations OMML?
 - Are student and teacher sections visually and structurally separate?
 - Will export or conversion preserve meaning?
 
@@ -72,3 +74,4 @@ If the formatting makes content harder to scan, copy, edit or convert, simplify 
 - Make content accessible - Australian Government Style Manual - https://www.stylemanual.gov.au/accessible-and-inclusive-content/make-content-accessible - Accessed 2026-05-17
 - Tables - Australian Government Style Manual - https://www.stylemanual.gov.au/structuring-content/tables - Accessed 2026-05-17
 - Make your Word documents accessible to people with disabilities - Microsoft Support - https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d - Accessed 2026-05-17
+- Editing equations created using Microsoft Equation Editor - Microsoft Support - https://support.microsoft.com/en-us/office/editing-equations-created-using-microsoft-equation-editor-08a44b8c-ae15-41a7-bc15-7239890c0cec - Accessed 2026-05-17

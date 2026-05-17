@@ -31,6 +31,14 @@ The agent must treat the user's stated context as authoritative for the task and
 
 First, identify all explicit context in the request. Second, infer low-risk context only when it is strongly implied by file names, folder names, previous project structure or the user's wording. Third, ask a clarification question if the missing context could change the task design, assessment judgement, safety advice, privacy handling or platform instructions. If the missing context is low risk, state the assumption briefly and proceed.
 
+## Boundary With Curriculum Depth Rules
+
+This rule controls the order of attention: use the user's stated context first. Use `rules/Curriculum/RULE_YEAR_LEVEL_APPROPRIATENESS.md` to decide the pitch for students, and use `rules/Curriculum/RULE_NO_OVERTEACHING.md` to decide how much content to include. Do not duplicate those curriculum-depth decisions here.
+
+## Platform Naming Convention
+
+Name local platforms such as Frog OS, Stile and Daymap only when the user supplies that platform context, when a platform-specific file applies, or when the output is for LMS, school-system or platform instructions. General rules and skills should refer to "the stated platform" or "school system" rather than listing every platform.
+
 ## Examples
 
 - If the user says "Year 8 Scratch on iPads", keep instructions touch-friendly, browser/classroom appropriate and beginner-level.

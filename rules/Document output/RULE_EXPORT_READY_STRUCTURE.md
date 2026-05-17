@@ -30,6 +30,7 @@ The agent must structure document outputs with clear headings, logical order, si
 - Ensure sources, assumptions and local checks are included when required.
 - Avoid relying on colour, spacing or visual position as the only meaning.
 - Leave output clean enough for copy-paste into Word, Google Docs or LMS.
+- When the destination is an actual DOCX file, structure equation content so formulae can be converted to OMML and do not rely on images or plain-text approximations.
 
 ## Decision Logic
 
@@ -53,6 +54,7 @@ If the user asks for a document, task sheet, worksheet or export-ready output, p
 ## Interaction With Skills
 
 - `skills/Documents/SKILL_DOCX_PRODUCTION.md`
+- `skills/Documents/SKILL_EQUATION_FORMATTING.md`
 - `skills/Documents/SKILL_WORD_EXPORT_FORMATTING.md`
 - `skills/Lesson design/SKILL_STUDENT_FACING_TUTORIAL.md`
 - `skills/Assessment/SKILL_ASSESSMENT_TASK_DESIGN.md`

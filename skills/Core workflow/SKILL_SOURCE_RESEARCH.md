@@ -11,7 +11,7 @@ Use this skill when a request involves:
 - current curriculum, SACE, policy, safety or software information
 - factual claims that could change over time
 - assessment standards, performance standards or official guidance
-- technical instructions for tools such as Excel Online, Power BI, Scratch, micro:bit, GameMaker or Python
+- technical instructions for tools such as Excel Online, DB Browser for SQLite, SQLite, Power BI, Scratch, micro:bit, GameMaker or Python
 - cybersecurity, privacy, AI or online safety advice
 - research-informed teaching practice
 - sources requested by the user
@@ -91,6 +91,7 @@ For the project source register, use the table format already established in `SO
 
 - `Research the latest SACE Chemistry assessment requirements before drafting the task.`
 - `Find official Excel Online guidance for charts and filters.`
+- `Find official DB Browser for SQLite and SQLite documentation before writing database-tool instructions.`
 - `Use reputable sources to make a Year 9 cybersecurity context.`
 - `Check the current Australian Curriculum wording for Year 8 Digital Technologies.`
 

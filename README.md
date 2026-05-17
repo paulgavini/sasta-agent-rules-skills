@@ -1,4 +1,4 @@
-# SASTA Agents
+# Agents For Science, Physics, Chemistry, Electronics, Digital Technologies, IT, Robotics And Data Analysis For SASTA Members
 
 This repository is building a Markdown rule and skill library for an education-focused AI assistant that supports South Australian secondary teaching work.
 
@@ -18,8 +18,10 @@ As at 2026-05-17, the drafted foundation covers:
 - science investigation and safety rules
 - assessment rules
 - assessment workflow skills
+- lesson-design, communication, document-output and equation rules and skills
+- physics, chemistry, digital technologies, electronics, media, platform and AI agent design rules and skills
 
-Many subject, platform, document-output, lesson-design, communication and specialist workflow files remain to be drafted.
+All rule and skill files recorded in the current build inventory have AI-reviewed drafts. Remaining work is now consistency review, source-register tidying, local school policy alignment and human review before production use.
 
 ## Repository Structure
 
@@ -89,6 +91,8 @@ The project records sources in [SOURCE_REGISTER.md](SOURCE_REGISTER.md). Preferr
 - Office of the Australian Information Commissioner
 - Australian school science and measurement sources where relevant
 - official software documentation for platform-specific files
+- DB Browser for SQLite and SQLite documentation for database-development tasks
+- Microsoft Support and Microsoft Learn for Excel, Power Query and Power BI workflows
 
 Sources should not be fabricated. Source claims should be linked to the files that use them.
 
@@ -99,7 +103,8 @@ Sources should not be fabricated. Source claims should be linked to the files th
 - Do not rename, move or delete files unless explicitly asked.
 - Research reputable sources before drafting current, policy, curriculum, safety, software or evidence-informed content.
 - Update `AGENT_BUILD_PROGRESS.md` and `SOURCE_REGISTER.md` after completing files.
-- Treat `Reviewed` as an AI self-reviewed draft unless the project later reserves that status for human review.
+- Treat `Reviewed` as an AI self-reviewed draft. Human approval or production sign-off must be recorded separately if a human review process is introduced.
+- When producing actual Word `.docx` files, convert all formulae and equations to Word-native OMML. Raw LaTeX or UnicodeMath may be preserved as labelled source text, but it is not the final equation format for DOCX output.
 
 ## Using The Rules And Skills
 
@@ -193,6 +198,8 @@ Useful starter combinations:
 - Feedback: `SKILL_FEEDBACK_COMMENTS.md`, `RULE_FEEDBACK_FORMAT.md`, `RULE_MARKING_EVIDENCE.md`, `RULE_NO_UNFAIR_PENALTY.md`
 - Research-informed drafting: `SKILL_SOURCE_RESEARCH.md`, `SKILL_SOURCE_EVALUATION.md`, `SKILL_SYNTHESIS.md`, `RULE_SOURCE_HIERARCHY.md`
 - Science practical: `RULE_PRACTICAL_SAFETY.md`, `RULE_VARIABLES_AND_FAIR_TESTING.md`, `RULE_DATA_AND_UNCERTAINTY.md`, `RULE_PRIVACY_AND_SAFETY.md`
+- Database development: `SKILL_DATABASES.md`, `SKILL_EXCEL_ONLINE.md`, `SKILL_POWER_BI.md`, `RULE_DEVICE_CONSTRAINTS.md`, `RULE_DATA_ETHICS.md`
+- Word documents with formulae: `SKILL_DOCX_PRODUCTION.md`, `SKILL_EQUATION_FORMATTING.md`, `RULE_EQUATION_EDITABILITY.md`, `RULE_NO_EQUATION_IMAGES.md`, `RULE_WORD_FORMATTING.md`
 
 Example:
 
@@ -248,21 +255,12 @@ Process:
 
 ## Recommended Next Work
 
-The current recommended next batch is:
+The current recommended next work is:
 
-1. `rules/Communication/RULE_EMAIL_PROFESSIONAL_TONE.md`
-2. `rules/Communication/RULE_PARENT_FACING_LANGUAGE.md`
-3. `rules/Communication/RULE_STAFF_FACING_LANGUAGE.md`
-
-Likely upcoming clusters after communication include:
-
-- lesson-design rules and skills
-- document-output and Word/LMS formatting rules
-- chemistry and physics subject rules
-- digital technologies and platform-specific rules
-- quality-control workflow skills
-- AI agent design rules
+1. Tidy `SOURCE_REGISTER.md` and the source-summary bullets in `AGENT_BUILD_PROGRESS.md` for duplicate entries and encoding artefacts.
+2. Add local school policy sources before live deployment, especially for AI use, student data, LMS posting, assessment integrity and practical safety.
+3. Run human review for files that will be treated as policy, production guidance or school-wide operating instructions.
 
 ## Human Review Notes
 
-The drafted files are structured and source-informed, but they should still receive human review before being treated as final policy or production guidance. In particular, local school policies, current SACE subject outlines, platform constraints and school-approved assessment practices may need to override or refine the general rules here.
+The drafted files are structured and source-informed, but `Reviewed` means AI self-reviewed. They should still receive human review before being treated as final policy or production guidance. Local school policies, current SACE subject outlines, platform constraints and school-approved assessment practices override or refine the general rules here when they apply.

@@ -31,6 +31,10 @@ The agent must stay within the user's requested task and add only content that d
 
 Apply this rule after interpreting the request and before drafting the final output. Add material only if it answers the user's request or is needed for safe and accurate school use. If a useful addition is optional, keep it brief or mark it as an optional extension. If the addition would change the scope, ask first.
 
+## Boundary With Role Rules
+
+Use `rules/Core behaviour/RULE_ROLE_AND_SCOPE.md` to decide whether the request belongs inside the education-assistant role. Use this rule after that decision to keep the specific output from growing beyond the user's requested deliverable.
+
 ## Examples
 
 - If the user asks for a one-page Year 8 worksheet, create the worksheet rather than a full lesson sequence.

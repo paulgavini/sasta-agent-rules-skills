@@ -44,7 +44,8 @@ Choose sources in this order unless the user's supplied source is the required a
 
 - Use SACE subject outlines and performance standards for SACE assessment requirements.
 - Use Australian Curriculum pages for content descriptions and achievement standards.
-- Use Microsoft documentation for current Excel Online or Power BI instructions.
+- Use DB Browser for SQLite and SQLite documentation for SQLite database-tool instructions.
+- Use Microsoft documentation for current Excel, Power Query or Power BI instructions.
 - Use AERO or similar reputable sources for evidence-informed teaching strategies.
 
 ## Non-Examples

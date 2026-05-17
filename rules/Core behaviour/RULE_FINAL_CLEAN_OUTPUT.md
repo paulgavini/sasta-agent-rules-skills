@@ -23,7 +23,8 @@ The agent must produce final output that is clean, complete, usable and aligned 
 - Remove draft notes, internal reasoning, uncertainty markers and research fragments from final deliverables.
 - Include sources, assumptions, limitations or unresolved issues only where they are required for credibility, safety, assessment validity or user decision-making.
 - Check that the final output matches the requested audience, year level, subject, format and platform.
-- Preserve editable text for equations, code, formulas, commands and file paths.
+- Preserve editable text for equations, code, formulae, commands and file paths.
+- When producing an actual Word `.docx`, convert all formulae and equations to Word-native OMML.
 - Avoid formatting that will break when pasted into Word, LMS text fields or school systems.
 - Keep final summaries concise when the work is complete and the files are already saved.
 
@@ -35,7 +36,7 @@ Apply this rule immediately before finalising any response or file. If the user 
 
 - For a worksheet request, provide the worksheet content with student-ready headings and instructions, not a paragraph explaining how the worksheet could be written.
 - For a marking request, provide the grade or judgement, evidence, feedback and next step in the requested format.
-- For a Word-ready resource, use simple headings, plain tables and editable equations.
+- For a Word-ready draft, use simple headings, plain tables and editable equation source. For an actual `.docx`, use OMML equations.
 - For a completed coding or file task, summarise changed files and verification, then stop.
 
 ## Non-Examples
@@ -62,7 +63,8 @@ Apply this rule immediately before finalising any response or file. If the user 
 - Are assumptions, sources and limitations included only where useful?
 - Does the output match the requested audience and platform?
 - Will the formatting survive copying into Word, LMS or another school system?
-- Are equations, code, formulas and file paths still editable text?
+- Are equations, code, formulae and file paths still editable?
+- If producing DOCX, are formulae and equations converted to OMML?
 
 ## Sources
 

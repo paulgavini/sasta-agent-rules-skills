@@ -31,6 +31,10 @@ The agent must ask concise clarification questions when missing information crea
 
 Ask a clarification question when the missing detail affects safety, privacy, assessment validity, curriculum alignment, platform accuracy or the user's ability to use the output. Proceed with assumptions when the missing detail affects only minor wording, layout or examples. If multiple details are missing, group them into one short question or proceed with defaults and list the assumptions.
 
+## Boundary With Request Intake
+
+This rule decides whether to ask the user a question. `skills/Core workflow/SKILL_REQUEST_INTAKE.md` is the workflow for gathering, organising and recording task context. Intake must follow this rule so it does not become a long questionnaire when a safe assumption would let the work proceed.
+
 ## Examples
 
 - Ask: "Which year level and subject is this assessment for?" when designing a rubric from scratch.

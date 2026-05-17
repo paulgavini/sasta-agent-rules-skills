@@ -30,14 +30,15 @@ Use this skill when the user asks for:
 
 1. Confirm Stage 1 or Stage 2 Chemistry.
 2. Check current SACE Chemistry pages or supplied subject-outline/LAP material before making specific claims.
-3. Identify the assessment type, such as investigations folio or skills and applications task.
-4. Map the resource to the evidence students produce.
-5. Keep assessment conditions, verification and academic integrity requirements visible.
-6. Use current SACE terminology only when supplied or verified.
-7. Avoid inventing performance-standard wording, weightings or task rules.
-8. Flag when the school LAP or current subject outline must be checked.
-9. Separate student-facing instructions from teacher-facing alignment notes.
-10. Keep the output useful for planning, moderation and classroom implementation.
+3. Treat the current supplied or official Chemistry subject outline as the primary authority for Chemistry-specific content, assessment types, weightings, criteria and performance standards; use general SACE policy sources for LAP, integrity, moderation and verification processes.
+4. Identify the assessment type, such as investigations folio or skills and applications task.
+5. Map the resource to the evidence students produce.
+6. Keep assessment conditions, verification and academic integrity requirements visible.
+7. Use current SACE terminology only when supplied or verified.
+8. Avoid inventing performance-standard wording, weightings or task rules.
+9. Flag when the school LAP or current subject outline must be checked.
+10. Separate student-facing instructions from teacher-facing alignment notes.
+11. Keep the output useful for planning, moderation and classroom implementation.
 
 ## Output
 

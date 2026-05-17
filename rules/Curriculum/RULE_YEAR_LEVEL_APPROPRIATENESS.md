@@ -32,6 +32,10 @@ The agent must match the depth, language, abstraction and expected independence 
 
 If the user supplies a year level, that year level controls the pitch unless they also ask for extension or support. If no year level is supplied and the task is low-risk, infer cautiously from the topic and state the assumption. If the task is an assessment, SACE item, safety activity or high-stakes resource, ask or research before drafting.
 
+## Boundary With Context And Overteaching Rules
+
+Use `rules/Core behaviour/RULE_FOLLOW_USER_CONTEXT.md` to identify the user's stated year level, stage, platform and audience. Use this rule to set the pitch, vocabulary, abstraction and expected independence. Use `rules/Curriculum/RULE_NO_OVERTEACHING.md` to remove unnecessary extra content after the pitch is set.
+
 ## Examples
 
 - A Year 8 resource should use short, explicit instructions and concrete examples before abstract terminology.

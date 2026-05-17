@@ -25,7 +25,7 @@ Collect or infer the following information where relevant:
 - output type and format
 - curriculum, achievement standard, performance standard or assessment criteria
 - lesson time, sequence length or due date
-- platform or tool, such as Word, Excel Online, Power BI, Scratch, micro:bit, GameMaker, Stile, Frog OS or Daymap
+- platform or tool, such as Word, Excel Online, DB Browser for SQLite, Power BI, Scratch, micro:bit, GameMaker, Stile, Frog OS or Daymap
 - available devices, equipment, chemicals, data sets or school constraints
 - student ability range, support needs and extension needs
 - safety, privacy, academic-integrity or assessment restrictions
@@ -43,6 +43,10 @@ Collect or infer the following information where relevant:
 8. If proceeding with assumptions, state the assumptions briefly before drafting or record them in the output where useful.
 9. Keep the intake lightweight; do not turn intake into a long planning document unless the user asks for one.
 
+## Boundary With Clarification Rule
+
+This skill gathers and organises context. It does not independently decide to stop work. Use `rules/Core behaviour/RULE_CLARIFICATION.md` to decide whether a missing detail is a genuine blocker, then use this skill to ask the shortest useful question or record the assumption.
+
 ## Output
 
 The usual output is not a standalone document. The skill should produce an internal intake summary or a short user-facing clarification such as:
@@ -50,6 +54,7 @@ The usual output is not a standalone document. The skill should produce an inter
 - `I will treat this as a Year 8 student-facing Scratch tutorial for beginners.`
 - `I need the task sheet or rubric before I can mark this fairly.`
 - `Assuming this is for Excel Online, I will avoid desktop-only features.`
+- `Assuming students are using DB Browser for SQLite, I will write SQLite-compatible SQL and use CSV handoffs to Excel or Power BI.`
 
 When a formal intake record is useful, use this compact structure:
 

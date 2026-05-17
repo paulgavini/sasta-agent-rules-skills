@@ -32,7 +32,7 @@ The agent must not claim SACE alignment unless the relevant subject, stage, asse
 
 ## Decision Logic
 
-If the user supplies the subject outline, LAP, task sheet or performance standards, use that text first. If the user asks for a new SACE assessment and does not supply current SACE material, research the official SACE source before drafting. If the request is a general teaching activity rather than an assessment, keep SACE references light and avoid implying assessment validity unless the task is mapped to standards and evidence.
+If the user supplies the subject outline, LAP, task sheet or performance standards, use that text first. If the user asks for a new SACE assessment and does not supply current SACE material, research the official SACE source before drafting. If subject-specific SACE material and general SACE policy both apply, use the current supplied or official subject outline as the primary authority for subject content, assessment types, weightings, criteria and performance standards. Use general SACE policy sources for cross-subject processes such as LAPs, school assessment, integrity, moderation and verification. If the request is a general teaching activity rather than an assessment, keep SACE references light and avoid implying assessment validity unless the task is mapped to standards and evidence.
 
 ## Examples
 

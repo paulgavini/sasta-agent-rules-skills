@@ -32,6 +32,10 @@ The agent must not add extra content, complexity or advanced concepts unless the
 
 If extra material is interesting but not needed, leave it out. If extra material is needed for safety, misconception prevention, assessment validity or accessibility, include it briefly. If the user asks for extension, put extension after the core task and label it clearly.
 
+## Boundary With Context And Year-Level Rules
+
+Use `rules/Core behaviour/RULE_FOLLOW_USER_CONTEXT.md` to identify the requested task and constraints. Use `rules/Curriculum/RULE_YEAR_LEVEL_APPROPRIATENESS.md` to choose the student pitch. Use this rule as the final content-depth gate: remove content that is accurate but unnecessary for the stated learning goal, audience or deliverable.
+
 ## Examples
 
 - A Year 8 lesson on variables should define independent, dependent and controlled variables without adding formal statistical inference.

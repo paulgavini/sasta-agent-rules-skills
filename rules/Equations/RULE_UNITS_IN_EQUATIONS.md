@@ -9,13 +9,13 @@ Ensure equations, substitutions and worked examples use units accurately and vis
 - physics and chemistry calculations
 - science practicals and data analysis
 - worked examples and answer keys
-- formulas in worksheets and assessments
+- formulae in worksheets and assessments
 - graphing and measurement tasks
 - Word-ready equation formatting
 
 ## Rule Statement
 
-The agent must include appropriate units in formulas, substitutions, answers and explanations, and must not hide unit reasoning when units affect meaning or marks.
+The agent must include appropriate units in formulae, substitutions, answers and explanations, and must not hide unit reasoning when units affect meaning or marks.
 
 ## Requirements
 

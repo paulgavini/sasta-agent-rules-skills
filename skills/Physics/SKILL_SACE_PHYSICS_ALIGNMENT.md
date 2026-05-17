@@ -30,14 +30,15 @@ Use this skill when the user asks for:
 
 1. Confirm whether the task is Stage 1 or Stage 2 Physics.
 2. Check current SACE Physics pages or supplied subject-outline/LAP material before making specific claims.
-3. Identify the assessment type, such as investigations folio or skills and applications task.
-4. Map the resource to evidence students must produce.
-5. Keep assessment conditions and verification requirements visible.
-6. Use current SACE terminology where it is supplied or verified.
-7. Avoid inventing performance-standard wording, weightings or task requirements.
-8. Flag when the school LAP or current subject outline must be checked.
-9. Add teacher-facing alignment notes without cluttering student-facing instructions.
-10. Keep the output usable for planning, moderation or classroom implementation.
+3. Treat the current supplied or official Physics subject outline as the primary authority for Physics-specific content, assessment types, weightings, criteria and performance standards; use general SACE policy sources for LAP, integrity, moderation and verification processes.
+4. Identify the assessment type, such as investigations folio or skills and applications task.
+5. Map the resource to evidence students must produce.
+6. Keep assessment conditions and verification requirements visible.
+7. Use current SACE terminology where it is supplied or verified.
+8. Avoid inventing performance-standard wording, weightings or task requirements.
+9. Flag when the school LAP or current subject outline must be checked.
+10. Add teacher-facing alignment notes without cluttering student-facing instructions.
+11. Keep the output usable for planning, moderation or classroom implementation.
 
 ## Output
 

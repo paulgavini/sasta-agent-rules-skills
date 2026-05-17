@@ -48,7 +48,8 @@ If a preferred source directly answers the question, use it before a general web
 ## Examples
 
 - Use SACE pages for performance standards instead of a third-party study guide.
-- Use Microsoft Learn for Excel Online or Power BI instructions.
+- Use DB Browser for SQLite and SQLite documentation for SQLite database-tool instructions.
+- Use Microsoft Support or Microsoft Learn for Excel, Power Query or Power BI instructions.
 - Use eSafety Commissioner material for online-safety advice.
 - Use AERO for teaching practice guidance rather than a generic productivity blog.
 

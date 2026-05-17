@@ -30,13 +30,15 @@ Use this skill when the user asks for:
 1. Confirm whether the user needs an actual DOCX file, Word-ready Markdown, or content to paste into Word.
 2. Structure the document with one title and logical headings.
 3. Keep text editable; do not turn body text, equations, tables or code into images.
-4. Use simple lists and tables that can survive Word export.
-5. Keep student-facing, teacher-facing, source and appendix sections clearly separated.
-6. Format equations, code and tables according to their specific rules.
-7. Add image descriptions or alt text notes when images carry meaning.
-8. Check accessibility, heading order, link clarity and colour-independent meaning.
-9. Check that document content matches the user's requested audience and use.
-10. State any export, template, accessibility or local formatting checks still needed.
+4. Convert all formulae and equations in the produced `.docx` to Word-native OMML.
+5. Preserve raw LaTeX or UnicodeMath only as optional labelled source text when the user needs it; do not use raw source as the final equation inside the `.docx`.
+6. Use simple lists and tables that can survive Word export.
+7. Keep student-facing, teacher-facing, source and appendix sections clearly separated.
+8. Format equations, code and tables according to their specific rules.
+9. Add image descriptions or alt text notes when images carry meaning.
+10. Check accessibility, heading order, link clarity, colour-independent meaning and OMML equation editability.
+11. Check that document content matches the user's requested audience and use.
+12. State any export, template, accessibility or local formatting checks still needed.
 
 ## Output
 
@@ -67,6 +69,7 @@ Adjust sections to the document type. Do not include empty sections unless the u
 - Headings and tables are accessible.
 - Student and teacher material are separated.
 - Code and equations remain copyable or editable.
+- Formulae and equations in actual DOCX files are OMML.
 - Sources and assumptions are visible where required.
 - The output is ready for Word production or clearly states what remains.
 
@@ -92,6 +95,7 @@ Adjust sections to the document type. Do not include empty sections unless the u
 - Using fake headings or layout-only tables.
 - Mixing teacher notes into student instructions.
 - Losing code indentation or equation editability.
+- Leaving formulae as raw LaTeX, UnicodeMath or images in an actual DOCX instead of OMML.
 - Omitting sources, assumptions or local checks when required.
 - Over-formatting content before the structure is sound.
 
@@ -101,11 +105,13 @@ Adjust sections to the document type. Do not include empty sections unless the u
 - Are headings logical?
 - Is all content editable?
 - Are tables, code and equations formatted safely?
+- Are all DOCX formulae and equations converted to OMML?
 - Are accessibility issues checked?
 - Are unresolved export checks stated?
 
 ## Sources
 
 - Make your Word documents accessible to people with disabilities - Microsoft Support - https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d - Accessed 2026-05-17
+- Editing equations created using Microsoft Equation Editor - Microsoft Support - https://support.microsoft.com/en-us/office/editing-equations-created-using-microsoft-equation-editor-08a44b8c-ae15-41a7-bc15-7239890c0cec - Accessed 2026-05-17
 - Structuring content - Australian Government Style Manual - https://www.stylemanual.gov.au/structuring-content - Accessed 2026-05-17
 - Make content accessible - Australian Government Style Manual - https://www.stylemanual.gov.au/accessible-and-inclusive-content/make-content-accessible - Accessed 2026-05-17

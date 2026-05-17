@@ -44,7 +44,7 @@ Research may be light when the task is a low-risk rewrite, format cleanup or gen
 ## Examples
 
 - Research before drafting a SACE Chemistry assessment task.
-- Research official documentation before writing Power BI instructions.
+- Research official documentation before writing DB Browser for SQLite, SQLite, Excel or Power BI instructions.
 - Research reputable sources before adding cybersecurity advice for students.
 - Use the supplied school rubric as the authority when marking student work.
 
